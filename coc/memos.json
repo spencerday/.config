@@ -1,0 +1,1807 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/sbin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/sbin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35"
+      },
+      "expiry": 1614325227363
+    },
+    "/sbin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/sbin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35"
+      },
+      "expiry": 1614325227350
+    },
+    "/sbin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/sbin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136723
+    },
+    "/usr/sbin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/sbin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136725
+    },
+    "/usr/sbin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/sbin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136721
+    },
+    "/usr/sbin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/sbin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35"
+      },
+      "expiry": 1614325227351
+    },
+    "/usr/sbin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/sbin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35"
+      },
+      "expiry": 1614325227352
+    },
+    "/usr/sbin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/sbin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136726
+    },
+    "/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136729
+    },
+    "/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136728
+    },
+    "/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35"
+      },
+      "expiry": 1614325227353
+    },
+    "/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35"
+      },
+      "expiry": 1614325227354
+    },
+    "/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136724
+    },
+    "/usr/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136734
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136735
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35"
+      },
+      "expiry": 1614325227356
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35"
+      },
+      "expiry": 1614325227357
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136736
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      }
+    ],
+    "/sbin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/sbin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136720
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/sbin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+      "type": "Unknown",
+      "displayName": "Python 3.9.2 64-bit"
+    },
+    "/sbin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/sbin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8"
+      },
+      "expiry": 1614286136743
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/sbin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/sbin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/sbin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/sbin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/sbin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/sbin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/sbin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/sbin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/sbin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/sbin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit",
+        "hash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8-f358876f942545255126bb3cf2b35d12"
+      },
+      "expiry": 1614286136913
+    },
+    "/usr/bin/python2.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35-5942b9103cff158ec4925f9dfd8ebbd8"
+      },
+      "expiry": 1614325227421
+    },
+    "/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit",
+        "hash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8-3f35d9d3fbfffd0c653efb7ad5ab3ead"
+      },
+      "expiry": 1614286136801
+    },
+    "/bin/python2.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35-03c2961d8485271294720b6f0a5d78bd"
+      },
+      "expiry": 1614325227424
+    },
+    "/usr/sbin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit",
+        "hash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8-0bfebd9d94889251233e07413ca034ee"
+      },
+      "expiry": 1614286136803
+    },
+    "/usr/sbin/python2.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35-3ea3063730f3d0adb24f38a8a3f5fde5"
+      },
+      "expiry": 1614325227427
+    },
+    "/sbin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit",
+        "hash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8-9c20d57eecd56b26bcf7103fbc763b5d"
+      },
+      "expiry": 1614286136805
+    },
+    "/sbin/python2.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35-1c526f4727352f4a7a87ee27a9ac57d5"
+      },
+      "expiry": 1614325227430
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/sbin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+      "type": "Unknown",
+      "displayName": "Python 3.9.2 64-bit"
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.2-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.2-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+          "type": "Unknown",
+          "displayName": "Python 3.9.2 64-bit"
+        }
+      },
+      "expiry": 1614296706675
+    },
+    "/usr/bin/python2.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python2",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1614325227438
+    },
+    "/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.2-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.2-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+          "type": "Unknown",
+          "displayName": "Python 3.9.2 64-bit"
+        }
+      },
+      "expiry": 1614286136819
+    },
+    "/bin/python2.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python2",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1614325227442
+    },
+    "/usr/sbin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/sbin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.2-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.2-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+          "type": "Unknown",
+          "displayName": "Python 3.9.2 64-bit"
+        }
+      },
+      "expiry": 1614286136822
+    },
+    "/usr/sbin/python2.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/sbin/python2",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1614325227446
+    },
+    "/sbin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+        "info": {
+          "architecture": 3,
+          "path": "/sbin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.2-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.2-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+          "type": "Unknown",
+          "displayName": "Python 3.9.2 64-bit"
+        }
+      },
+      "expiry": 1614286136825
+    },
+    "/sbin/python2.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+        "info": {
+          "architecture": 3,
+          "path": "/sbin/python2",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "92b859992a525f7cb92c0e1848e5587d5a9405e7936f43b40c25e49951578a58df71843ce536be33d2da2cc7747212c3c3e634c67981db57f1bc8bce25380d35",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1614325227449
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/sbin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+      "type": "Unknown",
+      "displayName": "Python 3.9.2 64-bit"
+    },
+    "ProposeLSBanner": false
+  },
+  "coc-python|/home/spencer/cs/project-5-spencerday": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:e1c7c85c98252682372c2229c57daba2": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:e1c7c85c98252682372c2229c57daba2": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/spencer/cs/project-5-spencerday": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "e23e5cd5a7fc72e3f5eafd403e205559cd3aae5308728362e940b1c638b478a99ae653afd98a0fd148831d5a443a2fbfa653b93ab202e6f75859f267009afb97",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/spencer/cs/323/lab00": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:4ccb9c9bc47b9ddb567b121f0e49fc29": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:4ccb9c9bc47b9ddb567b121f0e49fc29": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/spencer/cs/323/lab00": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "e23e5cd5a7fc72e3f5eafd403e205559cd3aae5308728362e940b1c638b478a99ae653afd98a0fd148831d5a443a2fbfa653b93ab202e6f75859f267009afb97",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/spencer/cs/323/lab01": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:77d1f9d37d59b58acec8e79481cf6fba": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:77d1f9d37d59b58acec8e79481cf6fba": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/spencer/cs/323/lab01": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "e23e5cd5a7fc72e3f5eafd403e205559cd3aae5308728362e940b1c638b478a99ae653afd98a0fd148831d5a443a2fbfa653b93ab202e6f75859f267009afb97",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/spencer/cs/323/csc323-labs": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:087eb82d58f666f58cd873d81f04e7aa": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:087eb82d58f666f58cd873d81f04e7aa": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/spencer/cs/323/csc323-labs": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "e23e5cd5a7fc72e3f5eafd403e205559cd3aae5308728362e940b1c638b478a99ae653afd98a0fd148831d5a443a2fbfa653b93ab202e6f75859f267009afb97",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/spencer/cs/323/lab02": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:549e5b06387ec97f88f98e2f9d74c934": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:549e5b06387ec97f88f98e2f9d74c934": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/spencer/cs/323/lab02": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "e23e5cd5a7fc72e3f5eafd403e205559cd3aae5308728362e940b1c638b478a99ae653afd98a0fd148831d5a443a2fbfa653b93ab202e6f75859f267009afb97",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/spencer/cs/323/lab02/pkcs7-0.1.2/pkcs7": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7832f05f6b78af28fabc9a98585d257b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7832f05f6b78af28fabc9a98585d257b": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/spencer/cs/323/lab02/pkcs7-0.1.2/pkcs7": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "e23e5cd5a7fc72e3f5eafd403e205559cd3aae5308728362e940b1c638b478a99ae653afd98a0fd148831d5a443a2fbfa653b93ab202e6f75859f267009afb97",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/spencer/.config": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:52e48e15caf94e2761abea76cbbb613e": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:52e48e15caf94e2761abea76cbbb613e": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/spencer/.config": {
+      "architecture": 3,
+      "path": "/sbin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+      "type": "Unknown",
+      "displayName": "Python 3.9.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/spencer/cs/323/lab3": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:9351c81cd009fbd762473dac71eb457d": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:9351c81cd009fbd762473dac71eb457d": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/spencer/cs/323/lab3": {
+      "architecture": 3,
+      "path": "/sbin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "5bfd41662c7c34f921a15a1f1598dfd605b157653acaec3ed0d3abe3d5e3927226b2fe5476067c5afe48d253ffd7d97174c2d606eaceb881922dff4a259ee5d8",
+      "type": "Unknown",
+      "displayName": "Python 3.9.2 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:087eb82d58f666f58cd873d81f04e7aa": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:087eb82d58f666f58cd873d81f04e7aa": []
+  }
+}

@@ -1,0 +1,51 @@
+#!/bin/sh
+
+# Use neovim for vim if present.
+command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	bat="cat /sys/class/power_supply/BAT?/capacity" \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
+	mkd="mkdir -pv" \
+	ffmpeg="ffmpeg -hide_banner"
+
+# Colorize commands when possible.
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi"
+
+# These common commands are just too long! Abbreviate them.
+alias \
+    ..="cd .."\
+	ka="killall" \
+	g="git" \
+	sdn="sudo shutdown -h now" \
+	v="nvim" \
+    vt="nvim -p" \
+    z="zathura" \
+	p="sudo pacman" \
+    cf="cd ~/.config" \
+    cfd="cd ~/.config/dwm && v config.h" \
+    cfv="cd ~/.config/nvim && v init.vim" \
+    smi="sudo make install" \
+    br="xrandr --output eDP1 --brightness" \
+    la="ls -a" \
+    reboot="sudo reboot" \
+    auto="xrandr --auto" \
+    mon="xrandr --output HDMI2 --auto --left-of eDP1" \
+    py="python" \
+    jc="javac" \
+    jca="javac *.java" \
+    jr="java" \
+    jd="javadoc -d" \
+    vpn="sudo openconnect --protocol=gp cpvpn.calpoly.edu --user=stday" \
+    javafxc="javac --module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml,javafx.media,javafx.web,javafx.swing" \
+    javafx="java --module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml,javafx.media,javafx.web,javafx.swing" \
+    pathc="patch --merge -i"\
+    valgrind="valgrind --leak-check=full --show-leak-kinds=all"\
+    complexity="complexity -t0 -s1"\
