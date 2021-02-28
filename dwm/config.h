@@ -118,7 +118,7 @@ static Key keys[] = {
 	{ MODKEY,			              XK_u,	    spawn,		     SHCMD("alacritty -e paru") },
    { MODKEY,			              XK_r,	    spawn,		     SHCMD("alacritty -e ranger") },
    { MODKEY,			              XK_m,	    spawn,		     SHCMD("alacritty -e spotify") },
-	{ MODKEY,			              XK_s,	    spawn,	        SHCMD("dmenu_run") },
+	{ MODKEY,			              XK_s,	    spawn,	        SHCMD("dmenu_run -l 10") },
 	{ MODKEY,			              XK_x,	    spawn,	        SHCMD("xlock -mode dclock -mousemotion") },
 	{ MODKEY,			              XK_p,	    spawn,	        SHCMD("maimpick") },
 	{ MODKEY,			              XK_space,  zoom,		     {0} },
