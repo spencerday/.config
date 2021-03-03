@@ -39,7 +39,7 @@ inoremap {<CR> {<CR>}<Esc>O
 
 " coc settings
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-nmap <silent> <leader>gd <Plug>(coc-definition)
+nmap <silent> <leader>gd <Plug>(coc-definition)zz
 
 " Return after jumping to definition
 map <leader>r <C-o>zz
