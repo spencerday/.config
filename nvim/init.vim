@@ -1,10 +1,8 @@
- 
 call plug#begin('~/.config/nvim/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-commentary'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'preservim/nerdtree'
-    Plug 'kovetskiy/sxhkd-vim'
     Plug 'morhetz/gruvbox'
     Plug 'vim-airline/vim-airline'
 call plug#end()
@@ -44,18 +42,14 @@ nmap <silent> <leader>gd <Plug>(coc-definition)zz
 " Return after jumping to definition
 map <leader>r <C-o>zz
 
-" Automatically start nerd tree if starting nvim withoutfiles
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
 " Changes how to switch between windows
 nnoremap <silent> <leader>h :wincmd h<CR>
 nnoremap <silent> <leader>j :wincmd j<CR>
 nnoremap <silent> <leader>k :wincmd k<CR>
 nnoremap <silent> <leader>l :wincmd l<CR>
 
-" Nerd Tree
-nnoremap <silent> <leader>f :NERDTreeToggle<CR>
+" FZF
+nnoremap <silent> <leader>f :FZF<CR>
 
 " Fugitive
 nmap <silent> <leader>g :G<CR>
