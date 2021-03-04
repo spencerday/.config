@@ -51,6 +51,11 @@ nnoremap <silent> <leader>l :wincmd l<CR>
 " FZF
 nnoremap <silent> <leader>f :FZF<CR>
 
+let g:fzf_action = {
+    \ 'alt-t': 'tab split',
+    \ 'alt-x': 'split',
+    \ 'alt-v': 'vsplit' }
+
 " Fugitive
 nmap <silent> <leader>g :G<CR>
 nmap <silent> <leader>gc :Gcommit<CR>
