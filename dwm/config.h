@@ -68,7 +68,6 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
-/* static const char *termcmd[]  = { "st", NULL }; */
 static const char *termcmd[]  = { "alacritty", NULL };
 
 #include <X11/XF86keysym.h>
@@ -112,21 +111,21 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	{ MODKEY,			              XK_w,	    spawn,		     SHCMD("$BROWSER") },
-	{ MODKEY,			              XK_e,	    spawn,		     SHCMD("alacritty -e connman-gtk") },
-	{ MODKEY,		                 XK_b,	    spawn,		     SHCMD("alacritty -e calibre") },
-	{ MODKEY,			              XK_u,	    spawn,		     SHCMD("alacritty -e paru") },
-   { MODKEY,			              XK_r,	    spawn,		     SHCMD("alacritty -e ranger") },
-   { MODKEY,			              XK_m,	    spawn,		     SHCMD("alacritty -e spotify") },
-	{ MODKEY,			              XK_s,	    spawn,	        SHCMD("dmenu_run -l 10") },
-	{ MODKEY,			              XK_x,	    spawn,	        SHCMD("xlock -mode dclock -mousemotion") },
-	{ MODKEY,			              XK_p,	    spawn,	        SHCMD("maimpick") },
-	{ MODKEY,			              XK_space,  zoom,		     {0} },
-	{ MODKEY,			              XK_grave,  spawn,	        SHCMD("fontawesomeselect") },
-	{ 0, XF86XK_AudioRaiseVolume,	             spawn,		     SHCMD("amixer sset Master 5%+; kill -44 $(pidof dwmblocks)") },
-	{ 0, XF86XK_AudioLowerVolume,	             spawn,		     SHCMD("amixer sset Master 5%-; kill -44 $(pidof dwmblocks)") },
-	{ 0, XF86XK_MonBrightnessUp,	             spawn,		     SHCMD("xbacklight -inc 15") },
-	{ 0, XF86XK_MonBrightnessDown,	          spawn,		     SHCMD("xbacklight -dec 15") },
+	{ MODKEY,			            XK_w,	   spawn,		   SHCMD("$BROWSER") },
+	{ MODKEY,			            XK_e,	   spawn,		   SHCMD("$TERMINAL -e connman-gtk") },
+	{ MODKEY,		                XK_b,	   spawn,		   SHCMD("$TERMINAL -e calibre") },
+	{ MODKEY,			            XK_u,	   spawn,		   SHCMD("$TERMINAL -e paru") },
+    { MODKEY,			            XK_r,	   spawn,		   SHCMD("$TERMINAL -e ranger") },
+    { MODKEY,			            XK_m,	   spawn,		   SHCMD("$TERMINAL -e spotify") },
+	{ MODKEY,			            XK_s,	   spawn,	       SHCMD("dmenu_run -l 10") },
+	{ MODKEY,			            XK_x,	   spawn,	       SHCMD("xlock -mode dclock -mousemotion") },
+	{ MODKEY,			            XK_p,	   spawn,	       SHCMD("maimpick") },
+	{ MODKEY,			            XK_space,  zoom,		   {0} },
+	{ MODKEY,			            XK_grave,  spawn,	       SHCMD("fontawesomeselect") },
+	{ 0, XF86XK_AudioRaiseVolume,	           spawn,		   SHCMD("amixer sset Master 5%+; kill -44 $(pidof dwmblocks)") },
+	{ 0, XF86XK_AudioLowerVolume,	           spawn,		   SHCMD("amixer sset Master 5%-; kill -44 $(pidof dwmblocks)") },
+	{ 0, XF86XK_MonBrightnessUp,	           spawn,		   SHCMD("xbacklight -inc 15") },
+	{ 0, XF86XK_MonBrightnessDown,	           spawn,		   SHCMD("xbacklight -dec 15") },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
@@ -136,9 +135,9 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-	{ MODKEY,			              XK_q,		 killclient,	  {0} },
-	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-	{ MODKEY|ControlMask,           XK_r,      quit,           {1} }, 
+	{ MODKEY,			            XK_q,	   killclient,	  {0} },
+	{ MODKEY|ShiftMask,             XK_q,      quit,          {0} },
+	{ MODKEY|ControlMask,           XK_r,      quit,          {1} }, 
 };
 
 /* button definitions */
