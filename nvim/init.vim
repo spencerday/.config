@@ -35,6 +35,9 @@ noremap <silent> <C-Right> :+tabmove<cr>
 " Automatically put closing bracket and move cursor
 inoremap {<CR> {<CR>}<Esc>O
 
+" run python files
+nnoremap <silent> <leader>p :w<CR>:sp<CR>:term python3 %<CR>
+
 " coc settings
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 nmap <silent> <leader>gd <Plug>(coc-definition)zz
