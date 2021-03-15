@@ -25,6 +25,7 @@ alias \
 	ka="killall" \
 	g="git" \
 	sdn="sudo shutdown -h now" \
+    killzoom="kill $(ps -u spencer | grep zoom | awk '{print $1}' | tail -1)"\
 	v="nvim" \
     vt="nvim -p" \
     z="zathura" \
@@ -38,7 +39,7 @@ alias \
     reboot="sudo reboot" \
     auto="xrandr --auto" \
     mon="xrandr --output HDMI2 --auto --left-of eDP1" \
-    py="python" \
+    py="python3" \
     jc="javac" \
     jca="javac *.java" \
     jr="java" \
