@@ -11,10 +11,8 @@ static const unsigned int gappov    = 10;       /* vert outer gap between window
 static const int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-/* static const char *fonts[]          = { "FiraCode-Regular:size=11", "fa-regular-400:pixelsize=10:antialias=true:autohint=true"  }; */
-/* static const char dmenufont[]       = "FiraCode-Regular:size=11"; */
-static const char *fonts[]          = { "Terminus:size=13", "fa-regular-400:pixelsize=10:antialias=true:autohint=true"  };
-static const char dmenufont[]       = "Terminus:size=13";
+static const char *fonts[]          = { "DroidSansMonoSlashed:size=11.5", "fa-regular-400:pixelsize=10:antialias=true:autohint=true"  };
+static const char dmenufont[]       = "DroidSansMonoSlashed:size=11.5";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
@@ -111,6 +109,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+	{ MODKEY,                       XK_space,  togglefloating, {0} },
 	{ MODKEY,			            XK_w,	   spawn,		   SHCMD("$BROWSER") },
 	{ MODKEY,			            XK_e,	   spawn,		   SHCMD("$TERMINAL -e connman-gtk") },
 	{ MODKEY,		                XK_b,	   spawn,		   SHCMD("$TERMINAL -e calibre") },
