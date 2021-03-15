@@ -45,6 +45,7 @@ nnoremap <silent> <leader>p :w<CR>:sp<CR>:term python3 %<CR>
 " coc settings
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 nmap <silent> <leader>gd <Plug>(coc-definition)zz
+nmap <leader>rn <Plug>(coc-rename)
 
 " Return after jumping to definition
 map <leader>r <C-o>zz
