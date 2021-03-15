@@ -1,11 +1,15 @@
 call plug#begin('~/.config/nvim/plugged')
-    Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-commentary'
     Plug 'junegunn/fzf'
+    Plug 'tpope/vim-fugitive'
+    Plug 'cespare/vim-toml'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'morhetz/gruvbox'
     Plug 'vim-airline/vim-airline'
 call plug#end()
+
+syntax on
+filetype plugin indent on
 
 let mapleader = " "
 
@@ -61,8 +65,8 @@ let g:fzf_action = {
 
 " Fugitive
 nmap <silent> <leader>g :G<CR>
-nmap <silent> <leader>gc :Gcommit<CR>
-nmap <silent> <leader>gp :Gpush<CR>
+nmap <silent> <leader>gc :Git commit<CR>
+nmap <silent> <leader>gp :Git push<CR>
 
 set bg=dark
 set clipboard+=unnamedplus
@@ -73,8 +77,6 @@ set updatetime=50
 
 nnoremap c "_c
 set nocompatible
-filetype plugin on
-syntax on
 colorscheme gruvbox
 " line below sets background transparent
 hi Normal guibg=NONE ctermbg=NONE
