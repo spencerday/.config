@@ -25,7 +25,6 @@ alias \
 	ka="killall" \
 	g="git" \
 	sdn="sudo shutdown -h now" \
-    killzoom="kill $(ps -u spencer | grep zoom | awk '{print $1}' | tail -1)"\
 	v="nvim" \
     vt="nvim -p" \
     z="zathura" \
