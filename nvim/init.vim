@@ -4,8 +4,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'cespare/vim-toml'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'bfrg/vim-cpp-modern'
     Plug 'morhetz/gruvbox'
-    Plug 'vim-airline/vim-airline'
+    Plug 'itchyny/lightline.vim'
+    Plug 'shinchu/lightline-gruvbox.vim'
 call plug#end()
 
 syntax on
@@ -69,6 +71,10 @@ nmap <silent> <leader>g :G<CR>
 nmap <silent> <leader>gc :Git commit<CR>
 nmap <silent> <leader>gp :Git push<CR>
 
+" c/c++ highlighting
+let g:cpp_member_highlight = 1
+let g:cpp_simple_highlight = 1
+
 set bg=dark
 set clipboard+=unnamedplus
 set go=a
@@ -78,7 +84,11 @@ set updatetime=50
 
 nnoremap c "_c
 set nocompatible
+set termguicolors
 colorscheme gruvbox
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox',
+      \ }
 " line below sets background transparent
 hi Normal guibg=NONE ctermbg=NONE
 set t_Co=256
