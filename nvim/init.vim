@@ -1,10 +1,11 @@
-call plug#begin('~/.config/nvim/plugged')
+﻿call plug#begin('~/.config/nvim/plugged')
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'bfrg/vim-cpp-modern'
+    Plug 'vim-python/python-syntax'
     Plug 'tpope/vim-commentary'
     Plug 'junegunn/fzf'
     Plug 'tpope/vim-fugitive'
     Plug 'cespare/vim-toml'
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'bfrg/vim-cpp-modern'
     Plug 'morhetz/gruvbox'
     Plug 'itchyny/lightline.vim'
     Plug 'shinchu/lightline-gruvbox.vim'
@@ -41,13 +42,13 @@ noremap <silent> <C-Right> :+tabmove<cr>
 " Automatically put closing bracket and move cursor
 inoremap {<CR> {<CR>}<Esc>O
 
-" run python files
-nnoremap <silent> <leader>p :w<CR>:sp<CR>:term python3 %<CR>
-
 " coc settings
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 nmap <silent> <leader>gd <Plug>(coc-definition)zz
 nmap <leader>rn <Plug>(coc-rename)
+
+" run python files
+nnoremap <silent> <leader>p :w<CR>:sp<CR>:term python3 %<CR>
 
 " Return after jumping to definition
 map <leader>r <C-o>zz
@@ -74,6 +75,9 @@ nmap <silent> <leader>gp :Git push<CR>
 " c/c++ highlighting
 let g:cpp_member_highlight = 1
 let g:cpp_simple_highlight = 1
+
+" python highlighting
+let g:python_highlight_all = 1
 
 set bg=dark
 set clipboard+=unnamedplus
