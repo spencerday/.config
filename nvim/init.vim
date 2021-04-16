@@ -1,6 +1,6 @@
 ﻿call plug#begin('~/.config/nvim/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'bfrg/vim-cpp-modern'
+    Plug 'jackguo380/vim-lsp-cxx-highlight'
     Plug 'vim-python/python-syntax'
     Plug 'tpope/vim-commentary'
     Plug 'junegunn/fzf'
