@@ -62,6 +62,7 @@ nnoremap <silent> <leader>l :wincmd l<CR>
 
 " FZF
 let g:fzf_layout = { 'down': '75%' }
+let g:fzf_preview_window = 'right:60%'
 nnoremap <silent> <leader>f :Files<CR>
 nnoremap <silent> <leader>fa :Files ~<CR>
 nnoremap <silent> <leader>fg :GFiles ~<CR>
