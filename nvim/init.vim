@@ -61,6 +61,7 @@ nnoremap <silent> <leader>k :wincmd k<CR>
 nnoremap <silent> <leader>l :wincmd l<CR>
 
 " FZF
+let g:fzf_layout = { 'down': '75%' }
 nnoremap <silent> <leader>f :Files<CR>
 nnoremap <silent> <leader>fa :Files ~<CR>
 nnoremap <silent> <leader>fg :GFiles ~<CR>
