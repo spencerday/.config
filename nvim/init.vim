@@ -63,6 +63,7 @@ nnoremap <silent> <leader>l :wincmd l<CR>
 " FZF
 nnoremap <silent> <leader>f :Files<CR>
 nnoremap <silent> <leader>fa :Files ~<CR>
+nnoremap <silent> <leader>fg :GFiles ~<CR>
 let g:fzf_action = {
      \ 'alt-t': 'tab split',
      \ 'alt-x': 'split',
