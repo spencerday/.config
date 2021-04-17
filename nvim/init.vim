@@ -3,7 +3,8 @@
     Plug 'jackguo380/vim-lsp-cxx-highlight'
     Plug 'vim-python/python-syntax'
     Plug 'tpope/vim-commentary'
-    Plug 'junegunn/fzf'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
     Plug 'tpope/vim-fugitive'
     Plug 'cespare/vim-toml'
     Plug 'morhetz/gruvbox'
@@ -60,12 +61,26 @@ nnoremap <silent> <leader>k :wincmd k<CR>
 nnoremap <silent> <leader>l :wincmd l<CR>
 
 " FZF
-nnoremap <silent> <leader>f :FZF<CR>
-
+nnoremap <silent> <leader>f :Files<CR>
+nnoremap <silent> <leader>fa :Files ~<CR>
 let g:fzf_action = {
-    \ 'alt-t': 'tab split',
-    \ 'alt-x': 'split',
-    \ 'alt-v': 'vsplit' }
+     \ 'alt-t': 'tab split',
+     \ 'alt-x': 'split',
+     \ 'alt-v': 'vsplit' }
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
 
 " Fugitive
 nmap <silent> <leader>g :G<CR>
