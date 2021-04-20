@@ -1,5 +1,6 @@
 ﻿call plug#begin('~/.config/nvim/plugged')
 	Plug 'neovim/nvim-lspconfig'
+    Plug 'glepnir/lspsaga.nvim'
 	Plug 'nvim-lua/completion-nvim'
     Plug 'bfrg/vim-cpp-modern'
     Plug 'vim-python/python-syntax'
@@ -8,10 +9,13 @@
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-commentary'
     Plug 'vimwiki/vimwiki'
-    Plug 'morhetz/gruvbox'
+    " Plug 'morhetz/gruvbox'
+    Plug 'gruvbox-community/gruvbox'
     Plug 'itchyny/lightline.vim'
     Plug 'shinchu/lightline-gruvbox.vim'
 call plug#end()
+
+let mapleader = " "
 
 " lsp/completion stuff
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
@@ -23,6 +27,16 @@ let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
 lua require'lspconfig'.clangd.setup{ on_attach=require'completion'.on_attach }
 lua require'lspconfig'.pyright.setup{ on_attach=require'completion'.on_attach }
 nnoremap <silent> <leader>gd <Cmd>lua vim.lsp.buf.definition()<CR>
+" Return after jumping to definition
+map <leader>rr <C-o>zz
+
+" lspsaga
+lua require'lspsaga'.init_lsp_saga()
+nnoremap <silent> <leader>gd :Lspsaga preview_definition<CR>
+nnoremap <silent> <leader>rn :Lspsaga rename<CR>
+nnoremap <silent> <leader>K :Lspsaga hover_doc<CR>
+nnoremap <silent> <C-f> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(1)<CR>
+nnoremap <silent> <C-b> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(-1)<CR>
 
 " c/c++ highlighting
 let g:cpp_attributes_highlight = 1
@@ -39,9 +53,6 @@ let g:python_highlight_operators = 1
 
 " run python files
 nnoremap <silent> <leader>p :w<CR>:sp<CR>:term python3 %<CR>
-
-" Return after jumping to definition
-map <leader>rr <C-o>zz
 
 " FZF
 let g:fzf_layout = { 'down': '75%' }
@@ -73,11 +84,6 @@ nmap <silent> <leader>g :G<CR>
 nmap <silent> <leader>gc :Git commit<CR>
 nmap <silent> <leader>gp :Git push<CR>
 
-syntax on
-filetype plugin indent on
-
-let mapleader = " "
-
 " General remaps
 nnoremap <silent> <leader>s :w<CR>
 nnoremap <silent> <leader>x :wq<CR>
@@ -108,13 +114,15 @@ nnoremap <silent> <leader>l :wincmd l<CR>
 " Automatically put closing bracket and move cursor
 inoremap {<CR> {<CR>}<Esc>O
 
+" general stuff
+syntax on
+filetype plugin indent on
 set bg=dark
 set clipboard+=unnamedplus
 set go=a
 set mouse=a
 set nohlsearch
 set updatetime=50
-
 nnoremap c "_c
 set nocompatible
 set termguicolors
