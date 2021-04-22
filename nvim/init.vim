@@ -130,6 +130,7 @@ colorscheme gruvbox
 let g:lightline = {
       \ 'colorscheme': 'gruvbox',
       \ }
+set list listchars=trail:-,eol:↲
 " line below sets background transparent
 hi Normal guibg=NONE ctermbg=NONE
 set t_Co=256
