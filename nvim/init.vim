@@ -1,15 +1,13 @@
 ﻿call plug#begin('~/.config/nvim/plugged')
-	Plug 'neovim/nvim-lspconfig'
+    Plug 'neovim/nvim-lspconfig'
     Plug 'glepnir/lspsaga.nvim'
-	Plug 'nvim-lua/completion-nvim'
-    Plug 'bfrg/vim-cpp-modern'
-    Plug 'vim-python/python-syntax'
+    Plug 'nvim-lua/completion-nvim'
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-commentary'
     Plug 'vimwiki/vimwiki'
-    " Plug 'morhetz/gruvbox'
     Plug 'gruvbox-community/gruvbox'
     Plug 'itchyny/lightline.vim'
     Plug 'shinchu/lightline-gruvbox.vim'
@@ -38,18 +36,8 @@ nnoremap <silent> <leader>K :Lspsaga hover_doc<CR>
 nnoremap <silent> <C-f> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(1)<CR>
 nnoremap <silent> <C-b> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(-1)<CR>
 
-" c/c++ highlighting
-let g:cpp_attributes_highlight = 1
-let g:cpp_member_highlight = 1
-let g:cpp_simple_highlight = 1
-
-" python syntax
-let g:python_highlight_builtins = 1
-let g:python_highlight_exceptions = 1
-let g:python_highlight_string_formatting = 1
-let g:python_highlight_func_calls = 1
-let g:python_highlight_class_vars = 1
-let g:python_highlight_operators = 1
+" tresitter
+lua require'nvim-treesitter.configs'.setup{ ensure_installed = {"c", "python"}, highlight = { enable=true } }
 
 " run python files
 nnoremap <silent> <leader>p :w<CR>:sp<CR>:term python3 %<CR>
