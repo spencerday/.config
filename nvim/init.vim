@@ -3,11 +3,13 @@
     Plug 'glepnir/lspsaga.nvim'
     Plug 'nvim-lua/completion-nvim'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
+    Plug 'nvim-lua/popup.nvim'
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-commentary'
     Plug 'vimwiki/vimwiki'
+    Plug 'tiagovla/tokyodark.nvim'
     Plug 'gruvbox-community/gruvbox'
     Plug 'itchyny/lightline.vim'
     Plug 'shinchu/lightline-gruvbox.vim'
@@ -16,14 +18,14 @@ call plug#end()
 let mapleader = " "
 
 " lsp/completion stuff
+lua require'lspconfig'.clangd.setup{ on_attach=require'completion'.on_attach }
+lua require'lspconfig'.pyright.setup{ on_attach=require'completion'.on_attach }
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 set completeopt=menuone,noinsert,noselect
 set shortmess+=c
 set completeopt=menuone,noinsert,noselect
 let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
-lua require'lspconfig'.clangd.setup{ on_attach=require'completion'.on_attach }
-lua require'lspconfig'.pyright.setup{ on_attach=require'completion'.on_attach }
 nnoremap <silent> <leader>gd <Cmd>lua vim.lsp.buf.definition()<CR>
 " Return after jumping to definition
 map <leader>rr <C-o>zz
@@ -42,30 +44,9 @@ lua require'nvim-treesitter.configs'.setup{ ensure_installed = {"c", "python"}, 
 " run python files
 nnoremap <silent> <leader>p :w<CR>:sp<CR>:term python3 %<CR>
 
-" FZF
-let g:fzf_layout = { 'down': '75%' }
-let g:fzf_preview_window = 'right:60%'
-nnoremap <silent> <leader>ff :Files<CR>
-nnoremap <silent> <leader>fa :Files ~<CR>
-nnoremap <silent> <leader>fg :GFiles <CR>
-let g:fzf_action = {
-     \ 'alt-t': 'tab split',
-     \ 'alt-x': 'split',
-     \ 'alt-v': 'vsplit' }
-let g:fzf_colors =
-\ { 'fg':      ['fg', 'Normal'],
-  \ 'bg':      ['bg', 'Normal'],
-  \ 'hl':      ['fg', 'Comment'],
-  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-  \ 'hl+':     ['fg', 'Statement'],
-  \ 'info':    ['fg', 'PreProc'],
-  \ 'border':  ['fg', 'Ignore'],
-  \ 'prompt':  ['fg', 'Conditional'],
-  \ 'pointer': ['fg', 'Exception'],
-  \ 'marker':  ['fg', 'Keyword'],
-  \ 'spinner': ['fg', 'Label'],
-  \ 'header':  ['fg', 'Comment'] }
+" Telescope
+nnoremap <leader>ff <cmd>Telescope find_files<CR>
+nnoremap <leader>fg <cmd>Telescope git_files<CR>
 
 " Fugitive
 nmap <silent> <leader>g :G<CR>
@@ -114,9 +95,10 @@ set updatetime=50
 nnoremap c "_c
 set nocompatible
 set termguicolors
-colorscheme gruvbox
+" colorscheme gruvbox
+colorscheme tokyodark
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
+      \ 'colorscheme': 'one',
       \ }
 set list listchars=trail:-,eol:↲
 " line below sets background transparent
