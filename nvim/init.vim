@@ -1,4 +1,5 @@
-﻿call plug#begin('~/.config/nvim/plugged')
+﻿" plugins
+call plug#begin('~/.config/nvim/plugged')
     Plug 'neovim/nvim-lspconfig'
     Plug 'glepnir/lspsaga.nvim'
     Plug 'nvim-lua/completion-nvim'
@@ -8,8 +9,6 @@
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-commentary'
-    Plug 'vimwiki/vimwiki'
-    Plug 'tiagovla/tokyodark.nvim'
     Plug 'gruvbox-community/gruvbox'
     Plug 'itchyny/lightline.vim'
     Plug 'shinchu/lightline-gruvbox.vim'
@@ -20,6 +19,7 @@ let mapleader = " "
 " lsp/completion stuff
 lua require'lspconfig'.clangd.setup{ on_attach=require'completion'.on_attach }
 lua require'lspconfig'.pyright.setup{ on_attach=require'completion'.on_attach }
+lua require'lspconfig'.pyls.setup{ on_attach=require'completion'.on_attach }
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 set completeopt=menuone,noinsert,noselect
@@ -31,7 +31,7 @@ nnoremap <silent> <leader>gd <Cmd>lua vim.lsp.buf.definition()<CR>
 map <leader>rr <C-o>zz
 
 " lspsaga
-lua require'lspsaga'.init_lsp_saga()
+lua require'lspsaga'.init_lsp_saga{ rename_prompt_prefix = '=>' }
 nnoremap <silent> <leader>gd :Lspsaga preview_definition<CR>
 nnoremap <silent> <leader>rn :Lspsaga rename<CR>
 nnoremap <silent> <leader>K :Lspsaga hover_doc<CR>
@@ -55,7 +55,7 @@ nmap <silent> <leader>gp :Git push<CR>
 
 " General remaps
 nnoremap <silent> <leader>s :w<CR>
-nnoremap <silent> <leader>x :wq<CR>
+nnoremap <silent> <leader>w :wq<CR>
 nnoremap <silent> <leader>q :q<CR>
 nnoremap <silent> <leader>c :noh<CR>
 nnoremap <leader>t :tabe 
@@ -95,10 +95,9 @@ set updatetime=50
 nnoremap c "_c
 set nocompatible
 set termguicolors
-" colorscheme gruvbox
-colorscheme tokyodark
+colorscheme gruvbox
 let g:lightline = {
-      \ 'colorscheme': 'one',
+      \ 'colorscheme': 'gruvbox',
       \ }
 set list listchars=trail:-,eol:↲
 " line below sets background transparent
