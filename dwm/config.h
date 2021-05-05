@@ -11,14 +11,14 @@ static const unsigned int gappov    = 10;       /* vert outer gap between window
 static const int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "DroidSansMonoSlashed:size=11.5", "fa-regular-400:pixelsize=10:antialias=true:autohint=true"  };
-static const char dmenufont[]       = "DroidSansMonoSlashed:size=11.5";
+static const char *fonts[]          = { "FiraCode:size=12", "fa-regular-400:pixelsize=10:antialias=true:autohint=true"  };
+static const char dmenufont[]       = "FiraCode:size=12";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
 static char selfgcolor[]            = "#eeeeee";
 static char selbordercolor[]        = "#770000";
-static char selbgcolor[]            = "#005577";
+static char selbgcolor[]            = "#3e777a";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -116,7 +116,7 @@ static Key keys[] = {
 	{ MODKEY,		                XK_b,	   spawn,		   SHCMD("$TERMINAL -e calibre") },
 	{ MODKEY,			            XK_u,	   spawn,		   SHCMD("$TERMINAL -e paru") },
     { MODKEY,			            XK_r,	   spawn,		   SHCMD("$TERMINAL -e ranger") },
-    { MODKEY,			            XK_m,	   spawn,		   SHCMD("$TERMINAL -e spotify") },
+    { MODKEY,			            XK_m,	   spawn,		   SHCMD("$TERMINAL -e mon") },
 	{ MODKEY,			            XK_f,	   spawn,	       SHCMD("dmenu_run -l 10") },
 	{ MODKEY,			            XK_x,	   spawn,	       SHCMD("xlock -mode dclock -mousemotion") },
 	{ MODKEY,			            XK_p,	   spawn,	       SHCMD("maimpick") },
