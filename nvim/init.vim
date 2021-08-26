@@ -1,7 +1,6 @@
 ﻿" plugins
 call plug#begin('~/.config/nvim/plugged')
     Plug 'neovim/nvim-lspconfig'
-    Plug 'glepnir/lspsaga.nvim'
     Plug 'nvim-lua/completion-nvim'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'nvim-lua/popup.nvim'
@@ -19,7 +18,7 @@ let mapleader = " "
 " lsp/completion stuff
 lua require'lspconfig'.clangd.setup{ on_attach=require'completion'.on_attach }
 lua require'lspconfig'.pyright.setup{ on_attach=require'completion'.on_attach }
-lua require'lspconfig'.pyls.setup{ on_attach=require'completion'.on_attach }
+lua require'lspconfig'.gopls.setup{ on_attach=require'completion'.on_attach }
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 set completeopt=menuone,noinsert,noselect
@@ -28,25 +27,16 @@ set completeopt=menuone,noinsert,noselect
 let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
 nnoremap <silent> <leader>gd <Cmd>lua vim.lsp.buf.definition()<CR>
 " Return after jumping to definition
-map <leader>rr <C-o>zz
+map <leader>r <C-o>zz
 
-" lspsaga
-lua require'lspsaga'.init_lsp_saga{ rename_prompt_prefix = '=>' }
-nnoremap <silent> <leader>gd :Lspsaga preview_definition<CR>
-nnoremap <silent> <leader>rn :Lspsaga rename<CR>
-nnoremap <silent> <leader>K :Lspsaga hover_doc<CR>
-nnoremap <silent> <C-f> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(1)<CR>
-nnoremap <silent> <C-b> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(-1)<CR>
+" telescope
+nnoremap <leader>f <cmd>lua require('telescope.builtin').find_files()<cr>
 
 " tresitter
-lua require'nvim-treesitter.configs'.setup{ ensure_installed = {"c", "python"}, highlight = { enable=true } }
+lua require'nvim-treesitter.configs'.setup{ ensure_installed = {"c", "python", "java", "go"}, highlight = { enable=true } }
 
 " run python files
 nnoremap <silent> <leader>p :w<CR>:sp<CR>:term python3 %<CR>
-
-" Telescope
-nnoremap <leader>ff <cmd>Telescope find_files<CR>
-nnoremap <leader>fg <cmd>Telescope git_files<CR>
 
 " Fugitive
 nmap <silent> <leader>g :G<CR>
@@ -99,7 +89,7 @@ colorscheme gruvbox
 let g:lightline = {
       \ 'colorscheme': 'gruvbox',
       \ }
-set list listchars=trail:-,eol:↲
+" set list listchars=trail:-,eol:↲
 " line below sets background transparent
 hi Normal guibg=NONE ctermbg=NONE
 set t_Co=256
